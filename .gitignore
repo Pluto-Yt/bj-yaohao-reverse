@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.DS_Store
+outputs/
+*.part
+
+# 政府公开信息原件（体积大、可由 run_all.sh 重新下载，避免再分发）
+data/pdf/
+data/html/

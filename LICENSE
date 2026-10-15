@@ -1,0 +1,42 @@
+MIT License
+
+Copyright (c) 2026 bj-yaohao-reverse contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+适用范围说明
+============
+
+1. 代码（scripts/ 目录下全部脚本）：适用上述 MIT 许可。
+2. 本项目原创的文档（README.md、CONCLUSIONS.md、docs/ 下本项目撰写的报告）与
+   解析产物（data/index.json、data/parsed/、data/verification.json）：
+   采用 Creative Commons Attribution 4.0 International（CC BY 4.0）许可，
+   转载请注明来源。
+3. 政府公开信息原件（data/pdf/ 下各期《配置结果》公示 PDF、data/refs/ 下的
+   国家标准预览）：版权归原发布方所有，本项目仅作研究留档，不再另行授权；
+   二次使用请以 original 发布渠道为准。
+
+免责声明
+--------
+
+本项目仅对公开数据进行统计与可复现性研究，用于核验公示结果，不构成对任何
+机构或个人的指控。摇号种子数于配置当日现场随机产生，算法已知不代表可以预测、
+影响或改变摇号结果。本项目与任何声称"提前查中签""保中"的渠道无关。
