@@ -1,5 +1,18 @@
 [
  {
+  "period": "2014-P1",
+  "kind": "unit",
+  "pool": 27071,
+  "quota": 1300,
+  "seed": 730671,
+  "exact": true,
+  "overlap": 1300,
+  "contained": true,
+  "subsequence": true,
+  "control_overlap": 77,
+  "chance": 62.43
+ },
+ {
   "period": "2020-P1",
   "kind": "unit",
   "pool": 41867,
@@ -206,6 +219,21 @@
   "subsequence": true,
   "control_overlap": 4,
   "chance": 2.76
+ },
+ {
+  "period": "2014-P1",
+  "kind": "person",
+  "pool": 2235804,
+  "quota": 20195,
+  "seed": 26498,
+  "exact": false,
+  "overlap": 20161,
+  "contained": true,
+  "subsequence": true,
+  "control_overlap": 186,
+  "chance": 182.41,
+  "draws_used": 20230,
+  "discarded": 35
  },
  {
   "period": "2020-P1",

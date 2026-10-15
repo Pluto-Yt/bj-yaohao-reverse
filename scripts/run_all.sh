@@ -11,7 +11,8 @@ python3 -u scripts/crawl.py | tee outputs/01-crawl.log | tail -3
 echo "== 2/5 下载公示 PDF（≥2020 年）"
 python3 -u scripts/pipeline.py download --min-year 2020 | tee outputs/02-download.log | tail -3
 
-echo "== 3/5 解析 PDF：配置事实 + 全部中签三元组"
+echo "== 3/5 解析 PDF：配置事实 + 全部中签三元组（含 2014 年回填）"
+python3 -u scripts/verify_legacy.py | tee outputs/03b-legacy.log
 python3 -u scripts/pipeline.py parse --min-year 2020 | tee outputs/03-parse.log | tail -5
 
 echo "== 4/5 方案A：跨期统计审计"
